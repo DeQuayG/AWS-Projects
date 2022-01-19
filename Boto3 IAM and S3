@@ -1,0 +1,15 @@
+def create_user(username):
+    """This function will create an IAM user with full S3 Access"""
+    iam = boto3.client("iam")
+    response1 = iam.create_user(UserName=username)
+    response2 = iam.add_user_to_group(
+    UserName = username, #Name of user
+    GroupName = 's3FullAccess')
+    print(response1)
+
+#Creating s3 bucket 
+client = boto3.client('s3')
+response1 = client.create_bucket(
+    Bucket = "luitbucket22309"
+)
+print(response1)
