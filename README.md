@@ -1,4 +1,11 @@
-# Code for any AWS-Projects I make, split into branches for each project
-AWS-Projects = Boto3 and Terraform IAM/S3 Creation Project
+This repository includes code for my first AWS Project: 
 
-Pipe = Python + BeautifulSoup CI/CD, DynamoDB, Terraform Project
+Within this project I: 
+- Create an IAM User 
+- Assign the user permisions that allow them S3 Access
+- Create an S3 Bucket 
+- Upload and image to the S3 Bucket 
+
+All of this is done using the AWS SDK for Python - Boto3, as well as Terraform!
+
+
