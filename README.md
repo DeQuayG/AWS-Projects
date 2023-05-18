@@ -1,6 +1,6 @@
-This repository includes code for my first AWS Project: 
+This repository includes code for my first AWS Project, which is placed within a separate branch: 
 
-Within this project I: 
+Within this project: 
 - Create an IAM User 
 - Assign the user permisions that allow them S3 Access
 - Create an S3 Bucket 
